@@ -1,5 +1,4 @@
-# irrigador-autom-tico- 
-<p>O Regador Autom&aacute;tico &eacute; um rob&ocirc; que monitora quando uma planta est&aacute; com "sede". O qual, por meio de sensores de umidade do solo, de baixo custo. O invento tem o objetivo de usar tecnologia, de forma respons&aacute;vel, para irrigar plantas com o menor consumo de &aacute;gua, dispensa ainda o trabalho humano no processo de irrigar.</p>
+
 <h1>Irrigador automatico</h1>
 <p>O Irrogador Autom&aacute;tico &eacute; um rob&ocirc; que monitora quando uma planta est&aacute; com "sede". O qual, por meio de sensores de umidade do solo, de baixo custo. O invento tem o objetivo de usar tecnologia, de forma respons&aacute;vel, para irrigar plantas com o menor consumo de &aacute;gua, dispensa ainda o trabalho humano no processo de irrigar.</p>
 <h1><strong>Montagem</strong></h1>
@@ -21,6 +20,7 @@
 <h2>Programa&ccedil;&atilde;o</h2>
 <p>O sketch para este projeto encontra-se abaixo:</p>
 <div id="crayon-5d4201ed85f15799278526-7" class="crayon-line"><span class="crayon-r">int</span> <span class="crayon-v">valvula</span> <span class="crayon-o">=</span> <span class="crayon-cn">8</span><span class="crayon-sy">;</span> <span class="crayon-c">// sinal do rele para v&aacute;lvula</span></div>
+
 <div id="crayon-5d4201ed85f15799278526-8" class="crayon-line crayon-striped-line">&nbsp;</div>
 <div id="crayon-5d4201ed85f15799278526-9" class="crayon-line"><span class="crayon-t">void</span> <span class="crayon-st">setup</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span> <span class="crayon-sy">{</span></div>
 <div id="crayon-5d4201ed85f15799278526-10" class="crayon-line crayon-striped-line"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-st">pinMode</span><span class="crayon-sy">(</span><span class="crayon-v">valvula</span><span class="crayon-sy">,</span> <span class="crayon-k">OUTPUT</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span> <span class="crayon-c">// declara v&aacute;lvula como sa&iacute;da</span></div>
